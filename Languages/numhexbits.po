@@ -1,0 +1,212 @@
+msgid ""
+msgstr "Content-Type: text/plain; charset=UTF-8"
+
+#: tfrmmain.caption
+msgid "Преобразование чисел"
+msgstr ""
+
+#: tfrmmain.cbbit0.caption
+msgctxt "tfrmmain.cbbit0.caption"
+msgid "0"
+msgstr ""
+
+#: tfrmmain.cbbit1.caption
+msgid "1"
+msgstr ""
+
+#: tfrmmain.cbbit10.caption
+msgid "10"
+msgstr ""
+
+#: tfrmmain.cbbit11.caption
+msgid "11"
+msgstr ""
+
+#: tfrmmain.cbbit12.caption
+msgid "12"
+msgstr ""
+
+#: tfrmmain.cbbit13.caption
+msgid "13"
+msgstr ""
+
+#: tfrmmain.cbbit14.caption
+msgid "14"
+msgstr ""
+
+#: tfrmmain.cbbit15.caption
+msgid "15"
+msgstr ""
+
+#: tfrmmain.cbbit16.caption
+msgid "16"
+msgstr ""
+
+#: tfrmmain.cbbit17.caption
+msgid "17"
+msgstr ""
+
+#: tfrmmain.cbbit18.caption
+msgid "18"
+msgstr ""
+
+#: tfrmmain.cbbit19.caption
+msgid "19"
+msgstr ""
+
+#: tfrmmain.cbbit2.caption
+msgid "2"
+msgstr ""
+
+#: tfrmmain.cbbit20.caption
+msgid "20"
+msgstr ""
+
+#: tfrmmain.cbbit21.caption
+msgid "21"
+msgstr ""
+
+#: tfrmmain.cbbit22.caption
+msgid "22"
+msgstr ""
+
+#: tfrmmain.cbbit23.caption
+msgid "23"
+msgstr ""
+
+#: tfrmmain.cbbit24.caption
+msgid "24"
+msgstr ""
+
+#: tfrmmain.cbbit25.caption
+msgid "25"
+msgstr ""
+
+#: tfrmmain.cbbit26.caption
+msgid "26"
+msgstr ""
+
+#: tfrmmain.cbbit27.caption
+msgid "27"
+msgstr ""
+
+#: tfrmmain.cbbit28.caption
+msgid "28"
+msgstr ""
+
+#: tfrmmain.cbbit29.caption
+msgid "29"
+msgstr ""
+
+#: tfrmmain.cbbit3.caption
+msgid "3"
+msgstr ""
+
+#: tfrmmain.cbbit30.caption
+msgid "30"
+msgstr ""
+
+#: tfrmmain.cbbit31.caption
+msgid "31"
+msgstr ""
+
+#: tfrmmain.cbbit4.caption
+msgid "4"
+msgstr ""
+
+#: tfrmmain.cbbit5.caption
+msgid "5"
+msgstr ""
+
+#: tfrmmain.cbbit6.caption
+msgid "6"
+msgstr ""
+
+#: tfrmmain.cbbit7.caption
+msgid "7"
+msgstr ""
+
+#: tfrmmain.cbbit8.caption
+msgid "8"
+msgstr ""
+
+#: tfrmmain.cbbit9.caption
+msgid "9"
+msgstr ""
+
+#: tfrmmain.edbyte0.text
+msgctxt "TFRMMAIN.EDBYTE0.TEXT"
+msgid "0"
+msgstr ""
+
+#: tfrmmain.edbyte1.text
+msgctxt "TFRMMAIN.EDBYTE1.TEXT"
+msgid "0"
+msgstr ""
+
+#: tfrmmain.edbyte2.text
+msgctxt "TFRMMAIN.EDBYTE2.TEXT"
+msgid "0"
+msgstr ""
+
+#: tfrmmain.edbyte3.text
+msgctxt "TFRMMAIN.EDBYTE3.TEXT"
+msgid "0"
+msgstr ""
+
+#: tfrmmain.edstringbit.text
+msgctxt "TFRMMAIN.EDSTRINGBIT.TEXT"
+msgid "0"
+msgstr ""
+
+#: tfrmmain.edvalhex.hint
+msgctxt "TFRMMAIN.EDVALHEX.HINT"
+msgid "Для подтверждения ввода нажмите Enter"
+msgstr ""
+
+#: tfrmmain.edvalhex.text
+msgctxt "TFRMMAIN.EDVALHEX.TEXT"
+msgid "0"
+msgstr ""
+
+#: tfrmmain.gbbits.caption
+msgid "Биты"
+msgstr ""
+
+#: tfrmmain.gbvalue.caption
+msgid "Значение"
+msgstr ""
+
+#: tfrmmain.lbbyte0.caption
+msgid "Byte 0"
+msgstr ""
+
+#: tfrmmain.lbbyte1.caption
+msgid "Byte 1"
+msgstr ""
+
+#: tfrmmain.lbbyte2.caption
+msgid "Byte 2"
+msgstr ""
+
+#: tfrmmain.lbbyte3.caption
+msgid "Byte 3"
+msgstr ""
+
+#: tfrmmain.lbstringbit.caption
+msgid "String bits"
+msgstr ""
+
+#: tfrmmain.lbvalhex.caption
+msgid "Hex"
+msgstr ""
+
+#: tfrmmain.lbvalue.caption
+msgid "Value"
+msgstr ""
+
+#: tfrmmain.spevalue.hint
+msgctxt "tfrmmain.spevalue.hint"
+msgid "Для подтверждения ввода нажмите Enter"
+msgstr ""
+

@@ -1,0 +1,455 @@
+object frmMain: TfrmMain
+  Left = 2689
+  Height = 312
+  Top = 264
+  Width = 630
+  BorderStyle = bsDialog
+  Caption = 'Преобразование чисел'
+  ClientHeight = 312
+  ClientWidth = 630
+  Constraints.MaxHeight = 312
+  Constraints.MaxWidth = 630
+  Constraints.MinHeight = 312
+  Constraints.MinWidth = 630
+  Position = poDesktopCenter
+  LCLVersion = '1.5'
+  object gbValue: TGroupBox
+    Left = 8
+    Height = 288
+    Top = 8
+    Width = 608
+    Caption = 'Значение'
+    ClientHeight = 267
+    ClientWidth = 606
+    TabOrder = 0
+    object speValue: TSpinEdit
+      Left = 64
+      Height = 32
+      Hint = 'Для подтверждения ввода нажмите Enter'
+      Top = 8
+      Width = 144
+      MaxValue = 2147483647
+      ParentShowHint = False
+      ShowHint = True
+      TabOrder = 0
+    end
+    object gbBits: TGroupBox
+      Left = 216
+      Height = 161
+      Top = -1
+      Width = 384
+      Caption = 'Биты'
+      ClientHeight = 140
+      ClientWidth = 382
+      TabOrder = 1
+      object cbBit0: TCheckBox
+        Left = 3
+        Height = 24
+        Top = 0
+        Width = 35
+        Caption = '0'
+        OnChange = cbBit0Change
+        TabOrder = 0
+      end
+      object cbBit1: TCheckBox
+        Left = 46
+        Height = 24
+        Top = 0
+        Width = 35
+        Caption = '1'
+        OnChange = cbBit1Change
+        TabOrder = 1
+      end
+      object cbBit2: TCheckBox
+        Left = 90
+        Height = 24
+        Top = 0
+        Width = 35
+        Caption = '2'
+        OnChange = cbBit2Change
+        TabOrder = 2
+      end
+      object cbBit3: TCheckBox
+        Left = 137
+        Height = 24
+        Top = 0
+        Width = 35
+        Caption = '3'
+        OnChange = cbBit3Change
+        TabOrder = 3
+      end
+      object cbBit4: TCheckBox
+        Left = 186
+        Height = 24
+        Top = 0
+        Width = 35
+        Caption = '4'
+        OnChange = cbBit4Change
+        TabOrder = 4
+      end
+      object cbBit5: TCheckBox
+        Left = 233
+        Height = 24
+        Top = 0
+        Width = 35
+        Caption = '5'
+        OnChange = cbBit5Change
+        TabOrder = 5
+      end
+      object cbBit6: TCheckBox
+        Left = 280
+        Height = 24
+        Top = 0
+        Width = 35
+        Caption = '6'
+        OnChange = cbBit6Change
+        TabOrder = 6
+      end
+      object cbBit7: TCheckBox
+        Left = 329
+        Height = 24
+        Top = 0
+        Width = 35
+        Caption = '7'
+        OnChange = cbBit7Change
+        TabOrder = 7
+      end
+      object cbBit8: TCheckBox
+        Left = 3
+        Height = 24
+        Top = 36
+        Width = 35
+        Caption = '8'
+        OnChange = cbBit8Change
+        TabOrder = 8
+      end
+      object cbBit9: TCheckBox
+        Left = 46
+        Height = 24
+        Top = 36
+        Width = 35
+        Caption = '9'
+        OnChange = cbBit9Change
+        TabOrder = 9
+      end
+      object cbBit10: TCheckBox
+        Left = 90
+        Height = 24
+        Top = 36
+        Width = 44
+        Caption = '10'
+        OnChange = cbBit10Change
+        TabOrder = 10
+      end
+      object cbBit11: TCheckBox
+        Left = 137
+        Height = 24
+        Top = 36
+        Width = 44
+        Caption = '11'
+        OnChange = cbBit11Change
+        TabOrder = 11
+      end
+      object cbBit12: TCheckBox
+        Left = 186
+        Height = 24
+        Top = 36
+        Width = 44
+        Caption = '12'
+        OnChange = cbBit12Change
+        TabOrder = 12
+      end
+      object cbBit13: TCheckBox
+        Left = 233
+        Height = 24
+        Top = 36
+        Width = 44
+        Caption = '13'
+        OnChange = cbBit13Change
+        TabOrder = 13
+      end
+      object cbBit14: TCheckBox
+        Left = 280
+        Height = 24
+        Top = 36
+        Width = 44
+        Caption = '14'
+        OnChange = cbBit14Change
+        TabOrder = 14
+      end
+      object cbBit15: TCheckBox
+        Left = 329
+        Height = 24
+        Top = 36
+        Width = 44
+        Caption = '15'
+        OnChange = cbBit15Change
+        TabOrder = 15
+      end
+      object cbBit16: TCheckBox
+        Left = 3
+        Height = 24
+        Top = 74
+        Width = 44
+        Caption = '16'
+        OnChange = cbBit16Change
+        TabOrder = 16
+      end
+      object cbBit17: TCheckBox
+        Left = 46
+        Height = 24
+        Top = 74
+        Width = 44
+        Caption = '17'
+        OnChange = cbBit17Change
+        TabOrder = 17
+      end
+      object cbBit18: TCheckBox
+        Left = 90
+        Height = 24
+        Top = 74
+        Width = 44
+        Caption = '18'
+        OnChange = cbBit18Change
+        TabOrder = 18
+      end
+      object cbBit19: TCheckBox
+        Left = 137
+        Height = 24
+        Top = 74
+        Width = 44
+        Caption = '19'
+        OnChange = cbBit19Change
+        TabOrder = 19
+      end
+      object cbBit20: TCheckBox
+        Left = 186
+        Height = 24
+        Top = 74
+        Width = 44
+        Caption = '20'
+        OnChange = cbBit20Change
+        TabOrder = 20
+      end
+      object cbBit21: TCheckBox
+        Left = 233
+        Height = 24
+        Top = 74
+        Width = 44
+        Caption = '21'
+        OnChange = cbBit21Change
+        TabOrder = 21
+      end
+      object cbBit22: TCheckBox
+        Left = 280
+        Height = 24
+        Top = 74
+        Width = 44
+        Caption = '22'
+        OnChange = cbBit22Change
+        TabOrder = 22
+      end
+      object cbBit23: TCheckBox
+        Left = 329
+        Height = 24
+        Top = 74
+        Width = 44
+        Caption = '23'
+        OnChange = cbBit23Change
+        TabOrder = 23
+      end
+      object cbBit24: TCheckBox
+        Left = 3
+        Height = 24
+        Top = 112
+        Width = 44
+        Caption = '24'
+        OnChange = cbBit24Change
+        TabOrder = 24
+      end
+      object cbBit25: TCheckBox
+        Left = 46
+        Height = 24
+        Top = 112
+        Width = 44
+        Caption = '25'
+        OnChange = cbBit25Change
+        TabOrder = 25
+      end
+      object cbBit26: TCheckBox
+        Left = 90
+        Height = 24
+        Top = 112
+        Width = 44
+        Caption = '26'
+        OnChange = cbBit26Change
+        TabOrder = 26
+      end
+      object cbBit27: TCheckBox
+        Left = 137
+        Height = 24
+        Top = 112
+        Width = 44
+        Caption = '27'
+        OnChange = cbBit27Change
+        TabOrder = 27
+      end
+      object cbBit28: TCheckBox
+        Left = 186
+        Height = 24
+        Top = 112
+        Width = 44
+        Caption = '28'
+        OnChange = cbBit28Change
+        TabOrder = 28
+      end
+      object cbBit29: TCheckBox
+        Left = 233
+        Height = 24
+        Top = 112
+        Width = 44
+        Caption = '29'
+        OnChange = cbBit29Change
+        TabOrder = 29
+      end
+      object cbBit30: TCheckBox
+        Left = 280
+        Height = 24
+        Top = 112
+        Width = 44
+        Caption = '30'
+        OnChange = cbBit30Change
+        TabOrder = 30
+      end
+      object cbBit31: TCheckBox
+        Left = 329
+        Height = 24
+        Top = 112
+        Width = 44
+        Caption = '31'
+        OnChange = cbBit31Change
+        TabOrder = 31
+      end
+    end
+    object edValHex: TEdit
+      Left = 64
+      Height = 32
+      Hint = 'Для подтверждения ввода нажмите Enter'
+      Top = 50
+      Width = 144
+      MaxLength = 8
+      OnKeyPress = edValHexKeyPress
+      ParentShowHint = False
+      ShowHint = True
+      TabOrder = 2
+      Text = '0'
+    end
+    object lbValue: TLabel
+      Left = 8
+      Height = 20
+      Top = 8
+      Width = 36
+      Caption = 'Value'
+      FocusControl = speValue
+      ParentColor = False
+    end
+    object lbValHex: TLabel
+      Left = 8
+      Height = 20
+      Top = 50
+      Width = 27
+      Caption = 'Hex'
+      ParentColor = False
+    end
+    object lbStringBit: TLabel
+      Left = 216
+      Height = 20
+      Top = 168
+      Width = 67
+      Caption = 'String bits'
+      FocusControl = edStringBit
+      ParentColor = False
+    end
+    object edStringBit: TEdit
+      Left = 288
+      Height = 32
+      Top = 168
+      Width = 312
+      ReadOnly = True
+      TabOrder = 3
+      Text = '0'
+    end
+    object edByte0: TEdit
+      Left = 64
+      Height = 32
+      Top = 96
+      Width = 144
+      MaxLength = 3
+      OnKeyPress = edByte0KeyPress
+      TabOrder = 4
+      Text = '0'
+    end
+    object edByte2: TEdit
+      Left = 64
+      Height = 32
+      Top = 184
+      Width = 144
+      MaxLength = 3
+      TabOrder = 5
+      Text = '0'
+    end
+    object edByte1: TEdit
+      Left = 64
+      Height = 32
+      Top = 140
+      Width = 144
+      MaxLength = 3
+      TabOrder = 6
+      Text = '0'
+    end
+    object edByte3: TEdit
+      Left = 64
+      Height = 32
+      Top = 224
+      Width = 144
+      MaxLength = 3
+      TabOrder = 7
+      Text = '0'
+    end
+    object lbByte0: TLabel
+      Left = 8
+      Height = 20
+      Top = 96
+      Width = 44
+      Caption = 'Byte 0'
+      ParentColor = False
+    end
+    object lbByte1: TLabel
+      Left = 8
+      Height = 20
+      Top = 140
+      Width = 44
+      Caption = 'Byte 1'
+      FocusControl = edByte1
+      ParentColor = False
+    end
+    object lbByte2: TLabel
+      Left = 8
+      Height = 20
+      Top = 184
+      Width = 44
+      Caption = 'Byte 2'
+      FocusControl = edByte2
+      ParentColor = False
+    end
+    object lbByte3: TLabel
+      Left = 8
+      Height = 20
+      Top = 224
+      Width = 44
+      Caption = 'Byte 3'
+      FocusControl = edByte3
+      ParentColor = False
+    end
+  end
+end
