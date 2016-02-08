@@ -8,9 +8,12 @@ uses
   Classes, SysUtils, FileUtil, Forms, Controls, Graphics, Dialogs, StdCtrls,
   Spin;
 
+const
+  MaxCardinal = $FFFFFFFF;
+
 type
 
-  { TfrmMain }
+	{ TfrmMain }
 
   TfrmMain = class(TForm)
     gbValue     : TGroupBox;
@@ -95,6 +98,7 @@ type
     procedure cbBit30Change(Sender : TObject);
     procedure cbBit31Change(Sender : TObject);
     procedure cbBit18Change(Sender : TObject);
+		procedure FormShow(Sender : TObject);
   private
     FIsChange : Boolean;
     procedure UpdateBits;
@@ -293,6 +297,11 @@ begin
   UpdateBits;
 end;
 
+procedure TfrmMain.FormShow(Sender : TObject);
+begin
+  speValue.MinValue := Integer(MaxCardinal);
+end;
+
 procedure TfrmMain.UpdateBits;
 var TempValue : Cardinal;
 begin
@@ -333,10 +342,12 @@ begin
   if cbBit30.Checked then TempValue := (TempValue or $40000000) else TempValue := (TempValue and $BFFFFFFF);
   if cbBit31.Checked then TempValue := (TempValue or $80000000) else TempValue := (TempValue and $7FFFFFFF);
 
-  speValue.Value := TempValue;
-  edValHex.Text  := IntToHex(TempValue,8);
-  if speValue.Value > 0 then edStringBit.Text := GetStringBits(Cardinal(speValue.Value))
-    else edStringBit.Text := '0';
+  speValue.Value := Integer(TempValue);
+  edValHex.Text  := IntToHex(Cardinal(speValue.Value),8);
+//  edStringBit.Text := IntToStr(speValue.Value);
+//  if speValue.Value = -1 then edStringBit.Text := GetStringBits($80000000)
+//   else
+  edStringBit.Text := GetStringBits(Cardinal(speValue.Value));
 end;
 
 procedure TfrmMain.UpdateHexAndBits;
@@ -357,7 +368,8 @@ begin
    edValHex.Text    := '0';
    edStringBit.Text := '0';
   end;
-  SetBits(Cardinal(speValue.Value));
+  if speValue.Value = -1 then SetBits($80000000)
+   else SetBits(Cardinal(speValue.Value));
 end;
 
 procedure TfrmMain.UpdateNumAndBits;
@@ -419,7 +431,7 @@ function TfrmMain.GetStringBits(Avalue : Cardinal) : String;
 const csOne = '1';
 begin
   Result := '00000000 00000000 00000000 00000000';
-  if (aValue and $00000001) = $00000001 then Result[35] := csOne;
+	if (aValue and $00000001) = $00000001 then Result[35] := csOne;
   if (aValue and $00000002) = $00000002 then Result[34] := csOne;
   if (aValue and $00000004) = $00000004 then Result[33] := csOne;
   if (aValue and $00000008) = $00000008 then Result[32] := csOne;

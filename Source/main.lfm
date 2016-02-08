@@ -1,7 +1,7 @@
 object frmMain: TfrmMain
-  Left = 2689
+  Left = 1085
   Height = 312
-  Top = 264
+  Top = 255
   Width = 630
   BorderStyle = bsDialog
   Caption = 'Преобразование чисел'
@@ -11,6 +11,7 @@ object frmMain: TfrmMain
   Constraints.MaxWidth = 630
   Constraints.MinHeight = 312
   Constraints.MinWidth = 630
+  OnShow = FormShow
   Position = poDesktopCenter
   LCLVersion = '1.5'
   object gbValue: TGroupBox
