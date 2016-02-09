@@ -156,7 +156,7 @@ msgstr ""
 
 #: tfrmmain.edstringbit.text
 msgctxt "TFRMMAIN.EDSTRINGBIT.TEXT"
-msgid "0"
+msgid "00000000 00000000 00000000 00000000"
 msgstr ""
 
 #: tfrmmain.edvalhex.hint
@@ -166,7 +166,7 @@ msgstr ""
 
 #: tfrmmain.edvalhex.text
 msgctxt "TFRMMAIN.EDVALHEX.TEXT"
-msgid "0"
+msgid "00000000"
 msgstr ""
 
 #: tfrmmain.gbbits.caption

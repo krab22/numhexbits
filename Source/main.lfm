@@ -1,7 +1,7 @@
 object frmMain: TfrmMain
-  Left = 1085
+  Left = 2241
   Height = 312
-  Top = 255
+  Top = 322
   Width = 630
   BorderStyle = bsDialog
   Caption = 'Преобразование чисел'
@@ -11,6 +11,7 @@ object frmMain: TfrmMain
   Constraints.MaxWidth = 630
   Constraints.MinHeight = 312
   Constraints.MinWidth = 630
+  OnClose = FormClose
   OnShow = FormShow
   Position = poDesktopCenter
   LCLVersion = '1.5'
@@ -30,6 +31,8 @@ object frmMain: TfrmMain
       Top = 8
       Width = 144
       MaxValue = 2147483647
+      OnKeyUp = speValueKeyUp
+      OnMouseUp = speValueMouseUp
       ParentShowHint = False
       ShowHint = True
       TabOrder = 0
@@ -340,10 +343,11 @@ object frmMain: TfrmMain
       Width = 144
       MaxLength = 8
       OnKeyPress = edValHexKeyPress
+      OnKeyUp = edValHexKeyUp
       ParentShowHint = False
       ShowHint = True
       TabOrder = 2
-      Text = '0'
+      Text = '00000000'
     end
     object lbValue: TLabel
       Left = 8
@@ -378,7 +382,7 @@ object frmMain: TfrmMain
       Width = 312
       ReadOnly = True
       TabOrder = 3
-      Text = '0'
+      Text = '00000000 00000000 00000000 00000000'
     end
     object edByte0: TEdit
       Left = 64
@@ -387,6 +391,7 @@ object frmMain: TfrmMain
       Width = 144
       MaxLength = 3
       OnKeyPress = edByte0KeyPress
+      OnKeyUp = edByte0KeyUp
       TabOrder = 4
       Text = '0'
     end
@@ -396,6 +401,8 @@ object frmMain: TfrmMain
       Top = 184
       Width = 144
       MaxLength = 3
+      OnKeyPress = edByte0KeyPress
+      OnKeyUp = edByte2KeyUp
       TabOrder = 5
       Text = '0'
     end
@@ -405,6 +412,8 @@ object frmMain: TfrmMain
       Top = 140
       Width = 144
       MaxLength = 3
+      OnKeyPress = edByte0KeyPress
+      OnKeyUp = edByte1KeyUp
       TabOrder = 6
       Text = '0'
     end
@@ -414,6 +423,8 @@ object frmMain: TfrmMain
       Top = 224
       Width = 144
       MaxLength = 3
+      OnKeyPress = edByte0KeyPress
+      OnKeyUp = edByte3KeyUp
       TabOrder = 7
       Text = '0'
     end

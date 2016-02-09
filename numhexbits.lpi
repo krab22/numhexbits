@@ -21,7 +21,7 @@
     <VersionInfo>
       <UseVersionInfo Value="True"/>
       <AutoIncrementBuild Value="True"/>
-      <BuildNr Value="4"/>
+      <BuildNr Value="13"/>
       <Language Value="0419"/>
       <StringTable ProductVersion=""/>
     </VersionInfo>
@@ -75,7 +75,7 @@
         <CompilerOptions>
           <Version Value="11"/>
           <Target>
-            <Filename Value="Bin/$(TargetCPU)-$(TargetOS)/numhexbits" ApplyConventions="False"/>
+            <Filename Value="Bin/$(TargetCPU)-$(TargetOS)/numhexbits.exe" ApplyConventions="False"/>
           </Target>
           <SearchPaths>
             <IncludeFiles Value="$(ProjOutDir)"/>
@@ -119,7 +119,7 @@
         <CompilerOptions>
           <Version Value="11"/>
           <Target>
-            <Filename Value="Bin/$(TargetCPU)-$(TargetOS)/numhexbits" ApplyConventions="False"/>
+            <Filename Value="Bin/$(TargetCPU)-$(TargetOS)/numhexbits.exe" ApplyConventions="False"/>
           </Target>
           <SearchPaths>
             <IncludeFiles Value="$(ProjOutDir)"/>
@@ -198,11 +198,6 @@
       <UnitOutputDirectory Value="Dcu/$(TargetCPU)-$(TargetOS)"/>
     </SearchPaths>
     <Conditionals Value="-B"/>
-    <Parsing>
-      <SyntaxOptions>
-        <UseAnsiStrings Value="False"/>
-      </SyntaxOptions>
-    </Parsing>
     <CodeGeneration>
       <Checks>
         <IOChecks Value="True"/>
