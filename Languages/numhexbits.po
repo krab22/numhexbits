@@ -170,11 +170,11 @@ msgid "00000000"
 msgstr ""
 
 #: tfrmmain.gbbits.caption
-msgid "Биты"
+msgid "Bits"
 msgstr ""
 
 #: tfrmmain.gbvalue.caption
-msgid "Значение"
+msgid "Value(unsigned, 32 bit)"
 msgstr ""
 
 #: tfrmmain.lbbyte0.caption
