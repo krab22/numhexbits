@@ -1,0 +1,13 @@
+[Desktop Entry]
+Name=Converting numbers
+Name[ru]=Преобразование чисел
+Comment=Converting 32-bit, unsigned numbers in different views
+Comment[ru]=Преобразование 32-х разрядного, беззнакового числа в различные представления
+GenericName=Number conversion utility
+GenericName[ru]=Утилиты преобразования чисел
+Categories=Utility;
+Icon=/usr/share/icons/numhexbits.ico
+Exec=/usr/bin/numhexbits
+Type=Application
+Terminal=false
+Encoding=UTF-8
